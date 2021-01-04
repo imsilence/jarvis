@@ -1,0 +1,30 @@
+version: "3.9"
+services:
+  web:
+    build: .
+    ports:
+    - 8000:8000
+    volumes:
+    - jarvis_logs:/opt/jarvis/logs
+    environment:
+    - DEBUG=true
+    - MYSQL_HOST=db
+    - MYSQL_PORT=3306
+    - MYSQL_USER=jarvis
+    - MYSQL_PASSWORD=jarvis
+    depends_on:
+    - db
+    entrypoint: ["/bin/bash", "/opt/jarvis/tools/wait-for.sh", "db:3306", "--", "/bin/bash", "/opt/jarvis/docker-entrypoint.sh"]
+  db:
+    image: mariadb
+    volumes:
+    - jarvis_db:/var/lib/mysql
+    environment:
+    - MYSQL_ROOT_PASSWORD=06c458fe083de97913b8f71c81f0fc8c
+    - MYSQL_DATABASE=jarvis
+    - MYSQL_USER=jarvis
+    - MYSQL_PASSWORD=jarvis
+
+volumes:
+  jarvis_logs: {}
+  jarvis_db: {}
