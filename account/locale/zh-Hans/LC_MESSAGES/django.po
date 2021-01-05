@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-05 12:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: account/admin.py:16
+msgid "account.admin.user.contants"
+msgstr "联系方式"
+
+#: account/admin.py:17
+msgid "account.admin.user.permissions"
+msgstr "权限信息"
+
+#: account/admin.py:20
+msgid "account.admin.user.dates"
+msgstr "日期信息"
+
+#: account/apps.py:10 account/apps.py:11
+msgid "account"
+msgstr ""
+
+#: account/forms.py:11
+msgid "account.form.user.password1"
+msgstr ""
+
+#: account/forms.py:12
+msgid "account.form.user.password2"
+msgstr ""
+
+#: account/forms.py:24
+msgid "error.password2"
+msgstr ""
+
+#: account/models.py:16
+msgid "account.user.username"
+msgstr ""
+
+#: account/models.py:23
+msgid "help.account.user.username"
+msgstr ""
+
+#: account/models.py:26
+msgid "error.account.user.username.unique"
+msgstr ""
+
+#: account/models.py:31
+msgid "account.user.nickname"
+msgstr ""
+
+#: account/models.py:40
+msgid "account.user.email"
+msgstr ""
+
+#: account/models.py:48
+msgid "account.user.telephone"
+msgstr ""
+
+#: account/models.py:57
+msgid "account.user.is_staff"
+msgstr ""
+
+#: account/models.py:62
+msgid "help.account.user.is_staff"
+msgstr ""
+
+#: account/models.py:66
+msgid "account.user.is_active"
+msgstr ""
+
+#: account/models.py:71
+msgid "help.acount.user.is_active"
+msgstr ""
+
+#: account/models.py:75
+msgid "account.user.created_at"
+msgstr ""
+
+#: account/models.py:83
+msgid "account.user.updated_at"
+msgstr ""
+
+#: account/models.py:91
+msgid "account.user.deleted_at"
+msgstr ""
+
+#: account/models.py:102
+msgid "account.user"
+msgstr ""
+
+#: account/models.py:103
+msgid "account.users"
+msgstr ""
